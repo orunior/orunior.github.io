@@ -232,8 +232,8 @@ MEDIA QUERIES
         text-align: center;
     }
     
-    #portifolio img{
-        width: 33%;
+    #portifolio div{
+        width: 33.3333333%;
     }
     
     /*    PORTIFOLIO    */
@@ -249,4 +249,3 @@ MEDIA QUERIES
         width: 100%;
     }
 }
-

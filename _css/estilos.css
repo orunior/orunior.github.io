@@ -232,7 +232,7 @@ MEDIA QUERIES
         text-align: center;
     }
     
-    #portifolio img{
+    #portifolio div{
         width: 33%;
     }
     
@@ -249,4 +249,3 @@ MEDIA QUERIES
         width: 100%;
     }
 }
-

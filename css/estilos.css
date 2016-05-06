@@ -89,7 +89,7 @@ CABEÇALHO
 */
 
 header{
-    background-image: url(../_img/fundo.jpg);
+    background-image: url(../img/fundo.jpg);
     background-size: cover;
     background-position: center;
     background-repeat: no-repeat;

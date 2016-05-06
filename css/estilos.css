@@ -27,9 +27,19 @@ NAVEGAÇÃO
 */
 
 nav{
+    display: -webkit-box;
+    display: -webkit-flex;
+    display: -ms-flexbox;
     display: flex;
-    flex-direction: column;
-    align-items: center;
+    -webkit-box-orient: vertical;
+    -webkit-box-direction: normal;
+    -webkit-flex-direction: column;
+        -ms-flex-direction: column;
+            flex-direction: column;
+    -webkit-box-align: center;
+    -webkit-align-items: center;
+        -ms-flex-align: center;
+            align-items: center;
     background-color: #4d4d4d;
     
 }
@@ -45,9 +55,19 @@ nav > a{
 nav ul{
     list-style: none;
     padding: 0;
+    display: -webkit-box;
+    display: -webkit-flex;
+    display: -ms-flexbox;
     display: flex;
-    flex-direction: column;
-    align-items: center;
+    -webkit-box-orient: vertical;
+    -webkit-box-direction: normal;
+    -webkit-flex-direction: column;
+        -ms-flex-direction: column;
+            flex-direction: column;
+    -webkit-box-align: center;
+    -webkit-align-items: center;
+        -ms-flex-align: center;
+            align-items: center;
     width: 100%;
 }
 
@@ -74,9 +94,19 @@ header{
     background-position: center;
     background-repeat: no-repeat;
     color: #f1f1f1;
+    display: -webkit-box;
+    display: -webkit-flex;
+    display: -ms-flexbox;
     display: flex;
-    flex-direction: column;
-    align-items: center;
+    -webkit-box-orient: vertical;
+    -webkit-box-direction: normal;
+    -webkit-flex-direction: column;
+        -ms-flex-direction: column;
+            flex-direction: column;
+    -webkit-box-align: center;
+    -webkit-align-items: center;
+        -ms-flex-align: center;
+            align-items: center;
     text-align: center;
     padding: 20px;
 }
@@ -90,9 +120,19 @@ SOBRE
 */
 
 #sobre {
+    display: -webkit-box;
+    display: -webkit-flex;
+    display: -ms-flexbox;
     display: flex;
-    flex-direction: column;
-    align-items: center;
+    -webkit-box-orient: vertical;
+    -webkit-box-direction: normal;
+    -webkit-flex-direction: column;
+        -ms-flex-direction: column;
+            flex-direction: column;
+    -webkit-box-align: center;
+    -webkit-align-items: center;
+        -ms-flex-align: center;
+            align-items: center;
     text-align: center;
     padding: 0 20px 20px;
     background-color: #8f3faf;
@@ -115,15 +155,35 @@ SERVIÇOS
 
 #servicos{
     padding: 20px;
+    display: -webkit-box;
+    display: -webkit-flex;
+    display: -ms-flexbox;
     display: flex;
-    flex-direction: column;
-    align-items: center;
+    -webkit-box-orient: vertical;
+    -webkit-box-direction: normal;
+    -webkit-flex-direction: column;
+        -ms-flex-direction: column;
+            flex-direction: column;
+    -webkit-box-align: center;
+    -webkit-align-items: center;
+        -ms-flex-align: center;
+            align-items: center;
 }
 
 #servicos div{
+    display: -webkit-box;
+    display: -webkit-flex;
+    display: -ms-flexbox;
     display: flex;
-    flex-direction: column;
-    align-items: center;
+    -webkit-box-orient: vertical;
+    -webkit-box-direction: normal;
+    -webkit-flex-direction: column;
+        -ms-flex-direction: column;
+            flex-direction: column;
+    -webkit-box-align: center;
+    -webkit-align-items: center;
+        -ms-flex-align: center;
+            align-items: center;
     text-align: center;
     margin-top: 30px;
 }
@@ -133,9 +193,19 @@ PORTIFÓLIO
 */
 
 #portifolio{
+    display: -webkit-box;
+    display: -webkit-flex;
+    display: -ms-flexbox;
     display: flex;
-    flex-direction: column;
-    align-items: center;
+    -webkit-box-orient: vertical;
+    -webkit-box-direction: normal;
+    -webkit-flex-direction: column;
+        -ms-flex-direction: column;
+            flex-direction: column;
+    -webkit-box-align: center;
+    -webkit-align-items: center;
+        -ms-flex-align: center;
+            align-items: center;
     padding-top: 20px;
 }
 
@@ -152,9 +222,19 @@ CONTATO
 */
 
 #contato{
+    display: -webkit-box;
+    display: -webkit-flex;
+    display: -ms-flexbox;
     display: flex;
-    flex-direction: column;
-    align-items: center;
+    -webkit-box-orient: vertical;
+    -webkit-box-direction: normal;
+    -webkit-flex-direction: column;
+        -ms-flex-direction: column;
+            flex-direction: column;
+    -webkit-box-align: center;
+    -webkit-align-items: center;
+        -ms-flex-align: center;
+            align-items: center;
     text-align: center;
     padding: 20px;
 }
@@ -177,12 +257,22 @@ MEDIA QUERIES
 @media screen and (min-width: 768px) {
     /*    NAVEGAÇÃO    */
     nav{
-        flex-direction: row;
-        justify-content: space-around;
+        -webkit-box-orient: horizontal;
+        -webkit-box-direction: normal;
+        -webkit-flex-direction: row;
+            -ms-flex-direction: row;
+                flex-direction: row;
+        -webkit-justify-content: space-around;
+            -ms-flex-pack: distribute;
+                justify-content: space-around;
     }
     
     nav ul{
-        flex-direction: row;
+        -webkit-box-orient: horizontal;
+        -webkit-box-direction: normal;
+        -webkit-flex-direction: row;
+            -ms-flex-direction: row;
+                flex-direction: row;
         width: 70%;
     }
     
@@ -190,22 +280,38 @@ MEDIA QUERIES
     header{
         height: 600px;
         height: 60vh;
-        justify-content: center;
+        -webkit-box-pack: center;
+        -webkit-justify-content: center;
+            -ms-flex-pack: center;
+                justify-content: center;
     }
     
     /*    SOBRE    */
     #sobre{
         height: 250px;
         height: 30vh;
-        justify-content: center;
+        -webkit-box-pack: center;
+        -webkit-justify-content: center;
+            -ms-flex-pack: center;
+                justify-content: center;
         min-height: 250px;
     }
     
     /*    SERVIÇOS    */
     #servicos{
-        flex-direction: row;
-        flex-wrap: wrap;
-        align-items: flex-start;
+        -webkit-box-orient: horizontal;
+        -webkit-box-direction: normal;
+        -webkit-flex-direction: row;
+            -ms-flex-direction: row;
+                flex-direction: row;
+        -webkit-flex-wrap: wrap;
+            -ms-flex-wrap: wrap;
+                flex-wrap: wrap;
+        -webkit-box-align: start;
+        -webkit-align-items: flex-start;
+            -ms-flex-align: start;
+                    -ms-grid-row-align: flex-start;
+                align-items: flex-start;
         max-width: 1000px;
         margin: 0 auto;
     }
@@ -216,15 +322,26 @@ MEDIA QUERIES
     }
     
     #servicos div{
-        flex-grow: 1;
-        flex-basis: 150px;
-        padding 0 10px;
+        -webkit-box-flex: 1;
+        -webkit-flex-grow: 1;
+            -ms-flex-positive: 1;
+                flex-grow: 1;
+        -webkit-flex-basis: 150px;
+            -ms-flex-preferred-size: 150px;
+                flex-basis: 150px;
+        padding: 0 10px;
     }
     
     /*    PORTIFOLIO    */
     #portifolio{
-        flex-direction: row;
-        flex-wrap: wrap;
+        -webkit-box-orient: horizontal;
+        -webkit-box-direction: normal;
+        -webkit-flex-direction: row;
+            -ms-flex-direction: row;
+                flex-direction: row;
+        -webkit-flex-wrap: wrap;
+            -ms-flex-wrap: wrap;
+                flex-wrap: wrap;
     }
     
     #portifolio h2{
@@ -233,14 +350,22 @@ MEDIA QUERIES
     }
     
     #portifolio div{
-        width: 33.3333333%;
+        width: 33%;
     }
     
     /*    PORTIFOLIO    */
     #contato{
-        flex-direction: row;
-        flex-wrap: wrap;
-        justify-content: space-around;
+        -webkit-box-orient: horizontal;
+        -webkit-box-direction: normal;
+        -webkit-flex-direction: row;
+            -ms-flex-direction: row;
+                flex-direction: row;
+        -webkit-flex-wrap: wrap;
+            -ms-flex-wrap: wrap;
+                flex-wrap: wrap;
+        -webkit-justify-content: space-around;
+            -ms-flex-pack: distribute;
+                justify-content: space-around;
         max-width: 500px;
         margin: 0 auto;
     }
